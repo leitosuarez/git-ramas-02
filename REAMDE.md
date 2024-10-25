@@ -27,3 +27,5 @@ git branch
 ```
 
 Una forma de darse cuenta donde estoy parado es: cuando hago git log "HEAD" va a tener una flechita que a donde apunte es a donde estoy poe ej "HEAD -> feature/ramas"
+
+En resumen HEAD es un puntero que apunta hacia el ultimo commit de la rama a la que estoy
