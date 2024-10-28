@@ -46,5 +46,4 @@ git brnach -a # esto sirve mucho para abobinarme de si subi o no la rama
 
 ```sh
 #estando en la rama en la cual me quiero traer las cosas tengo que hacer el comando:
-git merge <nombre-de-la-rama> # esto va a fusionar el contenido de la rama main con el de la rama que queremos que se fusione
-```
+git merge <nombre-de-la-rama> # esto va a fusionar el contenido de la rama main con el de la rama que qu
