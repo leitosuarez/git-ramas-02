@@ -29,3 +29,15 @@ git branch
 Una forma de darse cuenta donde estoy parado es: cuando hago git log "HEAD" va a tener una flechita que a donde apunte es a donde estoy poe ej "HEAD -> feature/ramas"
 
 En resumen HEAD es un puntero que apunta hacia el ultimo commit de la rama a la que estoy
+
+# Acordarse de hacer:
+
+```sh
+git push -u origin <nombre-de-la-rama> #esto es para que se suba al repo remoto la rama, si yo no hago esto la rama nunca va a aparecer en el remoto
+```
+
+# Para ver las ramas locales (no subidas) y remotas (subidas) que tengo, tengo que usar el comando:
+
+```sh
+git brnach -a # esto sirve mucho para abobinarme de si subi o no la rama
+```
