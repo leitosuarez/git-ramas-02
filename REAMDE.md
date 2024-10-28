@@ -55,3 +55,12 @@ git merge <nombre-de-la-rama> # esto va a fusionar el contenido de la rama main 
 git branch -d <nombre-de-la-rama> # si la rama que estou borrando ya fue fusionada me va a borrar la rama
 git branch -D <nombre-de-la-rama> # confirmacion de borrado de una rama que todavia no ha sido fucionada en el repositorio
 ```
+
+* Fusion: Fast-forward : git hace la fusion automaticamente
+* Fusion: con conflicto : git no puede fusionar automaticamente, entonces nos va a pedir ayuda
+
+# Abortar la fusion
+
+```sh
+git merge --abort
+```
