@@ -48,3 +48,10 @@ git brnach -a # esto sirve mucho para abobinarme de si subi o no la rama
 #estando en la rama en la cual me quiero traer las cosas tengo que hacer el comando:
 git merge <nombre-de-la-rama> # esto va a fusionar el contenido de la rama main con el de la rama que que quremos que se fucione
 ```
+
+# Como borrar una rama:
+
+```sh
+git branch -d <nombre-de-la-rama> # si la rama que estou borrando ya fue fusionada me va a borrar la rama
+git branch -D <nombre-de-la-rama> # confirmacion de borrado de una rama que todavia no ha sido fucionada en el repositorio
+```
