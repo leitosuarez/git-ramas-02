@@ -13,3 +13,9 @@ De esta forma vamos a ver que cambios exacatamente hubo de un commit a otro, ose
 ```sh
 git push -u origin <nombre-de-la-rama> #esto es para que se suba al repo remoto la rama, si yo no hago esto la rama nunca va a aparecer en el remoto
 ```
+
+# Para ver las ramas locales (no subidas) y remotas (subidas) que tengo, tengo que usar el comando:
+
+```sh
+git brnach -a # esto sirve mucho para abobinarme de si subi o no la rama
+```
