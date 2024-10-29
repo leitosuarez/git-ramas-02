@@ -56,8 +56,9 @@ git branch -d <nombre-de-la-rama> # si la rama que estou borrando ya fue fusiona
 git branch -D <nombre-de-la-rama> # confirmacion de borrado de una rama que todavia no ha sido fucionada en el repositorio
 ```
 
-* Fusion: Fast-forward : git hace la fusion automaticamente
-* Fusion: con conflicto : git no puede fusionar automaticamente, entonces nos va a pedir ayuda
+* Fusion: Fast-forward : git hace la fusion automaticamente (aca no genera un commit extra)
+* Fusion: Con estrategia : git hace la fusion automaticamente. (genera un commit donde se soluciona automaticamente la situacion)
+* Fusion: Con conflicto : git no puede fusionar automaticamente, entonces nos va a pedir ayuda
 
 # Abortar la fusion
 
