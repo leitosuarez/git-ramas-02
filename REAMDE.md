@@ -65,3 +65,6 @@ git branch -D <nombre-de-la-rama> # confirmacion de borrado de una rama que toda
 ```sh
 git merge --abort
 ```
+# Manera de solucionar un conflicto al fusionar ramas
+
+Para ello debemos editar el archivo, eliminar las lineas "========" y "<<<<<<<<>>>>>>>>" (osea modificar manualmente el archivo) que van a aparecer y luego hacer un git add y un git commit, eso es todo.
